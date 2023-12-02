@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const text = fs.readFileSync(path.join(__dirname, 'input.txt'), { encoding: 'utf-8' })
+const text = fs.readFileSync('../../Inputs/input1.txt', { encoding: 'utf-8' })
 
 const digits = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 
