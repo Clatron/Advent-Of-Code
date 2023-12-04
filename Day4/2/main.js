@@ -20,7 +20,6 @@ function checkNumbers(lines) {
     }
 
     for (let i = 0; i < match; i++) {
-      if (db[count + i + 1] === undefined) db[count + i + 1] = 0
       db[count + i + 1] += 1 * db[count]
     }
 
