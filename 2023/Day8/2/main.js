@@ -6,10 +6,8 @@ const file = fs.readFileSync('../../Inputs/input8.txt', { encoding: 'utf8' })
 const chars = ["J", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"]
 
 function findLeastCommonMultiple(arr) {
-  // En büyük sayıyı bulma
   const maxNumber = Math.max(...arr);
 
-  // En küçük ortak kat hesaplama
   let lcm = maxNumber;
 
   while (true) {
