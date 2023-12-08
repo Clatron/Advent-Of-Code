@@ -1,5 +1,4 @@
 const fs = require('fs')
-const path = require('path')
 
 const text = fs.readFileSync('../../Inputs/input1.txt', { encoding: 'utf-8' })
 
